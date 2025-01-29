@@ -80,6 +80,7 @@ const getMyAccess = async (staff) => {
 
 const getUserRoleMenus = async (role, staff) => {
 	try {
+		// Get the details of the user role
 		let pool = await sql.connect(db);
 		let results = await pool
 			.request()
