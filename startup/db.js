@@ -6,12 +6,13 @@ const db = {
 
 	//DCCL
 	//DCCL
-	server: 'SQL8006.site4now.net',
+	//"Data Source=SQL5113.site4now.net;Initial Catalog=db_aa95d7_dccl;User Id=db_aa95d7_dccl_admin;Password=YOUR_DB_PASSWORD
+	server: 'SQL5113.site4now.net',
 	//port: 1433,
 
-	user: 'db_aa95d7_daraplus_admin',
-	password: 'Kaw3se4dr5$$1',
-	database: 'db_aa95d7_daraplus',
+	user: 'db_aa95d7_dccl_admin',
+	password: 'Kaw3se4dr5',
+	database: 'db_aa95d7_dccl',
 
 	// server: '192.168.8.127',
 	// port: 1433,
